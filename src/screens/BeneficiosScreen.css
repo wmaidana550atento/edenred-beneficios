@@ -1,0 +1,234 @@
+.beneficios-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+/* Header */
+.header {
+  padding: 16px;
+  background: white;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top h1 {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.icon-btn:hover {
+  background-color: #f5f5f5;
+}
+
+/* Balance Section */
+.balance-section {
+  text-align: center;
+  padding: 24px 16px;
+  background: white;
+}
+
+.balance-label {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.balance-display {
+  margin: 8px 0;
+}
+
+.balance-amount {
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.balance-amount.hidden {
+  letter-spacing: 8px;
+}
+
+.balance-date {
+  color: #999;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+/* Card Section */
+.card-section {
+  padding: 16px;
+  margin: 8px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.edenred-card {
+  width: 100%;
+  max-width: 320px;
+  background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%);
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 32px;
+}
+
+.card-logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.card-status {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-number {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  font-family: 'Courier New', monospace;
+}
+
+.card-holder {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.card-arrow {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card-arrow:hover {
+  transform: translateX(4px);
+}
+
+/* Movements Section */
+.movements-section {
+  padding: 0 16px 16px;
+}
+
+.month-header {
+  padding: 16px 0 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 16px;
+}
+
+.month-header h3 {
+  margin: 0;
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.transactions-list {
+  margin-top: 16px;
+}
+
+.transaction-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #f5f5f5;
+  align-items: flex-start;
+}
+
+.transaction-icon {
+  font-size: 24px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.transaction-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.transaction-datetime {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 4px;
+}
+
+.transaction-description {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.transaction-amount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.amount {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.amount.debit {
+  color: #e74c3c;
+}
+
+.amount.credit {
+  color: #27ae60;
+}
+
+.transaction-balance {
+  font-size: 12px;
+  color: #999;
+}
