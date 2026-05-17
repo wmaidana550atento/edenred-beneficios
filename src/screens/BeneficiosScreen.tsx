@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, RotateCcw } from 'lucide-react';
+import EdenredLogo from '../components/EdenredLogo';
 import './BeneficiosScreen.css';
 
 interface Transaction {
@@ -111,7 +112,9 @@ export default function BeneficiosScreen() {
       <div className="card-section">
         <div className="edenred-card">
           <div className="card-header">
-            <div className="card-logo">Edenred</div>
+            <div className="card-logo">
+              <EdenredLogo size={56} />
+            </div>
             <div className="card-status">Rejeição</div>
           </div>
           <div className="card-number">6368 **** **** 1131</div>
