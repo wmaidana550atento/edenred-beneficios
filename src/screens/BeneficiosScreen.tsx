@@ -30,7 +30,7 @@ const mockTransactions: Transaction[] = [
     id: 1,
     date: '23/05/2026',
     time: '17:45',
-    description: 'Compra: JUMBO ALMADA',
+    description: 'Compra: MERCADONA',
     amount: -9.70,
     type: 'debit',
     balance: 175.79,
