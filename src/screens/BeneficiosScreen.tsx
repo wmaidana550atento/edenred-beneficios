@@ -17,7 +17,67 @@ interface Transaction {
 const mockTransactions: Transaction[] = [
   // MAIO 2026
   {
+    id: 0,
+    date: '23/05/2026',
+    time: '18:15',
+    description: 'Compra: SPAR CAPARICA',
+    amount: -28.15,
+    type: 'debit',
+    balance: 147.64,
+    icon: '🛒',
+  },
+  {
     id: 1,
+    date: '23/05/2026',
+    time: '17:45',
+    description: 'Compra: JUMBO ALMADA',
+    amount: -9.70,
+    type: 'debit',
+    balance: 175.79,
+    icon: '🛒',
+  },
+  {
+    id: 2,
+    date: '23/05/2026',
+    time: '16:30',
+    description: 'Compra: EL CORTE INGLES LISBON',
+    amount: -55.00,
+    type: 'debit',
+    balance: 185.49,
+    icon: '🛍️',
+  },
+  {
+    id: 3,
+    date: '23/05/2026',
+    time: '15:20',
+    description: 'Compra: AUCHAN COSTA CAPARICA',
+    amount: -32.90,
+    type: 'debit',
+    balance: 240.49,
+    icon: '🛒',
+  },
+  {
+    id: 4,
+    date: '23/05/2026',
+    time: '14:10',
+    description: 'Compra: WORTEN CASCAIS',
+    amount: -38.75,
+    type: 'debit',
+    balance: 273.39,
+    icon: '🖥️',
+  },
+  {
+    id: 5,
+    date: '23/05/2026',
+    time: '13:00',
+    description: 'Compra: CONTINENTE COSTA CAPARICA',
+    amount: -45.50,
+    type: 'debit',
+    balance: 312.14,
+    icon: '🛒',
+  },
+  {
+    id: 6,
     date: '16/05/2026',
     time: '12:45',
     description: 'Compra: AUCHAN COSTA CAPARICCOSTA DA CAPARICA',
@@ -27,7 +87,7 @@ const mockTransactions: Transaction[] = [
     icon: '🛒',
   },
   {
-    id: 2,
+    id: 7,
     date: '15/05/2026',
     time: '14:48',
     description: 'Compra: PASTELARIA CELIA AMADORA',
@@ -37,7 +97,7 @@ const mockTransactions: Transaction[] = [
     icon: '🍴',
   },
   {
-    id: 3,
+    id: 8,
     date: '14/05/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -47,7 +107,7 @@ const mockTransactions: Transaction[] = [
     icon: '⚡',
   },
   {
-    id: 4,
+    id: 9,
     date: '04/05/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -58,7 +118,7 @@ const mockTransactions: Transaction[] = [
   },
   // ABRIL 2026
   {
-    id: 5,
+    id: 10,
     date: '20/04/2026',
     time: '14:24',
     description: 'Compra: SPAR - PORTUGAL 4300-119 PORTO',
@@ -68,7 +128,7 @@ const mockTransactions: Transaction[] = [
     icon: '🛒',
   },
   {
-    id: 6,
+    id: 11,
     date: '14/04/2026',
     time: '21:04',
     description: 'Compra: MCDONALDS CHARNECA DCHARNECA DA CAPARICA',
@@ -78,7 +138,7 @@ const mockTransactions: Transaction[] = [
     icon: '🍴',
   },
   {
-    id: 7,
+    id: 12,
     date: '10/04/2026',
     time: '10:30',
     description: 'Compra: EL CORTE INGLES AMADORA',
@@ -88,7 +148,7 @@ const mockTransactions: Transaction[] = [
     icon: '🛍️',
   },
   {
-    id: 8,
+    id: 13,
     date: '05/04/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -99,7 +159,7 @@ const mockTransactions: Transaction[] = [
   },
   // MARÇO 2026
   {
-    id: 9,
+    id: 14,
     date: '28/03/2026',
     time: '15:45',
     description: 'Compra: CONTINENTE CAPARICA',
@@ -109,7 +169,7 @@ const mockTransactions: Transaction[] = [
     icon: '🛒',
   },
   {
-    id: 10,
+    id: 15,
     date: '22/03/2026',
     time: '19:20',
     description: 'Compra: RESTAURANTE O MARISCO LISBOA',
@@ -119,7 +179,7 @@ const mockTransactions: Transaction[] = [
     icon: '🍴',
   },
   {
-    id: 11,
+    id: 16,
     date: '15/03/2026',
     time: '11:15',
     description: 'Compra: GASOLINEIRA BP ALMADA',
@@ -129,7 +189,7 @@ const mockTransactions: Transaction[] = [
     icon: '⛽',
   },
   {
-    id: 12,
+    id: 17,
     date: '08/03/2026',
     time: '09:30',
     description: 'Compra: FARMACIA SAUDE AMADORA',
@@ -139,7 +199,7 @@ const mockTransactions: Transaction[] = [
     icon: '💊',
   },
   {
-    id: 13,
+    id: 18,
     date: '04/03/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -150,7 +210,7 @@ const mockTransactions: Transaction[] = [
   },
   // FEVEREIRO 2026
   {
-    id: 14,
+    id: 19,
     date: '26/02/2026',
     time: '14:00',
     description: 'Compra: WORTEN CASCAIS',
@@ -160,7 +220,7 @@ const mockTransactions: Transaction[] = [
     icon: '🖥️',
   },
   {
-    id: 15,
+    id: 20,
     date: '20/02/2026',
     time: '13:45',
     description: 'Compra: STARBUCKS LISBOA',
@@ -170,7 +230,7 @@ const mockTransactions: Transaction[] = [
     icon: '☕',
   },
   {
-    id: 16,
+    id: 21,
     date: '15/02/2026',
     time: '18:30',
     description: 'Compra: CINEMA MULTIPLEX AMADORA',
@@ -180,7 +240,7 @@ const mockTransactions: Transaction[] = [
     icon: '🎬',
   },
   {
-    id: 17,
+    id: 22,
     date: '10/02/2026',
     time: '10:20',
     description: 'Compra: SUPERMERCADO JUMBO CAPARICA',
@@ -190,7 +250,7 @@ const mockTransactions: Transaction[] = [
     icon: '🛒',
   },
   {
-    id: 18,
+    id: 23,
     date: '05/02/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -201,7 +261,7 @@ const mockTransactions: Transaction[] = [
   },
   // JANEIRO 2026
   {
-    id: 19,
+    id: 24,
     date: '29/01/2026',
     time: '16:50',
     description: 'Compra: LIVROS DO BRASIL LISBOA',
@@ -211,7 +271,7 @@ const mockTransactions: Transaction[] = [
     icon: '📚',
   },
   {
-    id: 20,
+    id: 25,
     date: '22/01/2026',
     time: '12:30',
     description: 'Compra: NETFLIX SUBSCRIPTION',
@@ -221,7 +281,7 @@ const mockTransactions: Transaction[] = [
     icon: '📺',
   },
   {
-    id: 21,
+    id: 26,
     date: '16/01/2026',
     time: '15:15',
     description: 'Compra: ZALANDO FASHION',
@@ -231,7 +291,7 @@ const mockTransactions: Transaction[] = [
     icon: '👕',
   },
   {
-    id: 22,
+    id: 27,
     date: '12/01/2026',
     time: '14:45',
     description: 'Compra: RESTAURANTE TASCA TIPICA PORTO',
@@ -241,7 +301,7 @@ const mockTransactions: Transaction[] = [
     icon: '🍴',
   },
   {
-    id: 23,
+    id: 28,
     date: '05/01/2026',
     time: '12:12',
     description: 'LIDERSAT LDA',
@@ -275,12 +335,12 @@ export default function BeneficiosScreen() {
         <p className="balance-label">Saldo</p>
         <div className="balance-display">
           {showBalance ? (
-            <h2 className="balance-amount">357,64 €</h2>
+            <h2 className="balance-amount">147,64 €</h2>
           ) : (
             <h2 className="balance-amount hidden">••••••</h2>
           )}
         </div>
-        <p className="balance-date">Atualizado às 01:55 de 17/05/2026</p>
+        <p className="balance-date">Atualizado às 18:15 de 23/05/2026</p>
       </div>
 
       {/* Card Section */}
